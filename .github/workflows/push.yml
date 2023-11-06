@@ -18,4 +18,6 @@ jobs:
     - name: Build with Maven
       run: |
         mvn clean install package
+        cd gameoflife-web
+        cd target
         ls -la
